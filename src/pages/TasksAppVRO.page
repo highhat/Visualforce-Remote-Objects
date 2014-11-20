@@ -1,0 +1,179 @@
+<!--
+    This is a simple task application that allows a user to read existing tasts, mark tasks as complete, and create new tasks.
+-->
+<apex:page showHeader="true" sidebar="true" standardStylesheets="false" title="Tasks App">
+    <apex:includeScript value="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.0/angular.min.js"/>
+    <apex:stylesheet value="{!URLFOR($Resource.TaskApp, 'assets/tasks.css')}"/>
+
+    <!-- Container for RemoteObjectModel components -->
+    <apex:remoteObjects >
+        <!-- Define a RemoteObjectModel (Specify an sObject and the fields you want to access) -->
+        <apex:remoteObjectModel name="Task" fields="Id, Subject, Description, IsClosed, Status, CreatedDate"></apex:remoteObjectModel>
+    </apex:remoteObjects>
+
+<script type="text/javascript">
+var app = angular.module('tasksApp', []);
+
+app.service('storage', function($q, $rootScope) {
+    this.getTasks = function(status) {
+        var deferred = $q.defer();
+
+        // The javascript proxy object
+        var TaskModel = new SObjectModel.Task();
+
+        // SOQL Options!
+        var queryOptions = {
+            orderby: [{CreatedDate: 'DESC'}],
+            limit: 50
+        }
+
+        // Add Where clause for filters
+        if(status == 'active') queryOptions.where = { IsClosed: {eq: false}};
+        else if(status == 'completed') queryOptions.where = { IsClosed: {eq: true}};
+
+        // This is where the magic is happening
+        TaskModel.retrieve(queryOptions, function(error, records, event) {
+            $rootScope.$apply(function() {
+                if(event.status) {
+                    deferred.resolve(records);
+                } else {
+                    deferred.reject(event);
+                }
+            })
+        });
+
+        return deferred.promise;
+    }
+
+    this.saveTask = function(task, callback) {
+        // Upsert task
+        var toSave = {
+            Id: task.id,
+            Subject: 'Other',
+            Description: task.name
+        }
+        if(task.isComplete) toSave.Status = 'Completed';
+
+        // The javascript proxy object
+        var TaskModel = new SObjectModel.Task(toSave);
+
+        // Upsert function
+        TaskModel.upsert(function(error, results, event) {
+            // The result of DML operations is the id
+            if(event.status) {
+                callback(results);
+            } else {
+                callback(error);
+            }
+        });
+    }
+
+    this.deleteTask = function(task, callback) {
+        // The javascript proxy object
+        var TaskModel = new SObjectModel.Task({Id: task.id});
+
+        // Upsert function
+        TaskModel.del(function(error, results, event) {
+            // The result of DML operations is the id
+            if(event.status) {
+                callback(results);
+            } else {
+                callback(error);
+            }
+        });
+    }
+});
+
+app.controller('tasksController', function($scope, storage) {
+    // Hold the tasks
+    $scope.tasks = [];
+
+    // The current task in focus
+    $scope.task = {};
+
+    // Get tasks public function
+    var lastModeUsed;
+    $scope.refreshTasks = function(mode) {
+        lastModeUsed = mode;
+        if(mode === undefined) mode = lastModeUsed;
+        storage.getTasks(mode).then(function(result) {
+            // Clear previous results
+            $scope.tasks = [];
+
+            // Iterate records into array
+            for(var i = 0; i < result.length; i++) {
+                $scope.tasks.push({
+                    id: result[i].get('Id'),
+                    name: result[i].get('Description'),
+                    isComplete: result[i].get('IsClosed')
+                });
+            }
+        });
+    }
+
+    // Delete a task
+    $scope.deleteTask = function(task) {
+        storage.deleteTask(task, function(result) {
+            // When complete, requery
+            $scope.refreshTasks();
+        });
+    }
+
+    // Create a new task
+    $scope.createTask = function() {
+        storage.saveTask($scope.task, function(result) {
+            // When finished, clear the form input
+            $scope.task = {};
+
+            // When complete, requery
+            $scope.refreshTasks();
+        });
+    }
+
+    // Save task
+    $scope.saveTask = function(task) {
+        storage.saveTask(task, function(result) {
+            // When complete, requery
+            $scope.refreshTasks();
+        });
+    }
+
+    // Initialize
+    $scope.refreshTasks('all');
+});
+</script>
+<div id="app" ng-app="tasksApp">
+<section id="todoapp" ng-controller="tasksController">
+    <header id="header">
+        <h1>tasks</h1>
+        <form ng-submit="createTask()">
+            <input ng-model="task.name" id="new-todo" placeholder="What needs to be done?" autofocus="autofocus"/>
+        </form>
+    </header>
+    <section id="main">
+        <ul id="todo-list">
+            <li ng-repeat="t in tasks">
+                <div class="view">
+                    <input class="toggle" type="checkbox" ng-model="t.isComplete" ng-change="saveTask(t);"/>
+                    <label>{{t.name}}</label>
+                    <button class="destroy" ng-click="deleteTask(t)"></button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer id="footer">
+        <ul id="filters">
+            <li>
+                <a ng-click="refreshTasks('all');">All</a>
+            </li>
+            <li>
+                <a ng-click="refreshTasks('active');">Active</a>
+            </li>
+            <li>
+                <a ng-click="refreshTasks('completed');">Completed</a>
+            </li>
+        </ul>
+    </footer>
+</section>
+</div>
+</apex:page>

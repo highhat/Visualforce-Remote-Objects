@@ -1,0 +1,51 @@
+<apex:page showHeader="false">
+    <apex:includeScript value="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"/>
+    <apex:stylesheet value="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+
+	<apex:remoteObjects rendered="true">
+        <apex:remoteObjectModel name="Opportunity" jsShorthand="Opp" fields="Name, Amount, Probability, Type">
+            <!-- Define fields as seperate components when applying shorthand names to fields -->
+            <apex:remoteObjectField name="Opportunity_Will_Blend__c"  jsShorthand="isBlendable"/>
+            <!-- NO <apex:remoteObjectField name="AccountId.Name"/> -->
+        </apex:remoteObjectModel>
+    </apex:remoteObjects>
+
+    <script type="text/javascript">
+        var j = jQuery.noConflict();
+        j(document).ready(function() {
+            // When DOM ready, load records
+            var opps = new SObjectModel.Opp();
+            opps.retrieve({limit: 15}, function(error, result, event) {
+                if(event.status) {
+                    // Success, create rows
+                    var rows = '';
+                    for(var i = 0; i < result.length; i++) {
+                        rows += '<tr>';
+                            rows += '<td>' + result[i].get('Name') + '</td>';
+                            rows += '<td>' + result[i].get('Probability') + '</td>';
+                            rows += '<td>' + result[i].get('isBlendable') + '</td>';
+                        rows += '</tr>';
+                    }
+
+                    // Add rows to table
+                    j('#oppTable tbody').append(rows);
+                } else {
+                    alert('Failed to retrieve Opportunities.');
+                }
+            })
+        });
+    </script>
+
+    <table id="oppTable" class="table table-condensedd">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Probability</th>
+                <th>Blendable</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</apex:page>
