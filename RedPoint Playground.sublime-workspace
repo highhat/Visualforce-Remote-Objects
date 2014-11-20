@@ -1,0 +1,957 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"standa",
+				"standardStylesheets	(Boolean)"
+			],
+			[
+				"sta",
+				"standardStylesheets	(Boolean)"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"Tsa",
+				"tsoc.TSapi	[Custom Apex Class]"
+			],
+			[
+				"sched",
+				"scheduleStatisticsJob"
+			],
+			[
+				"f",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"con",
+				"console.log(message);"
+			],
+			[
+				"contain",
+				"PUBLIC containsIgnoreCase(String searchStr) 	Boolean"
+			],
+			[
+				"Org",
+				"OrganizationType"
+			],
+			[
+				"out",
+				"apex:outputText"
+			],
+			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"st",
+				"staticMessages"
+			],
+			[
+				"getTempla",
+				"getAvailableTemplates"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"pho",
+				"photoURL"
+			],
+			[
+				"cons",
+				"console.log(message);"
+			],
+			[
+				"include",
+				"apex:includeScript"
+			],
+			[
+				"ac",
+				"action	(ApexPages.Action)"
+			],
+			[
+				"sy",
+				"styleClass	(String)"
+			],
+			[
+				"comm",
+				"apex:commandLink"
+			],
+			[
+				"up",
+				"uploadFile"
+			],
+			[
+				"getBo",
+				"PUBLIC getBodyAsBlob() 	Blob"
+			],
+			[
+				"Pro",
+				"Product_Keywords__c"
+			],
+			[
+				"s",
+				"PUBLIC stopTest() 	void"
+			],
+			[
+				"Prod",
+				"Product_Category__c"
+			],
+			[
+				"Product_",
+				"Product_Category__c	[Sobject Name]"
+			],
+			[
+				"Cart",
+				"Cart_Line_Item__c	[Sobject Name]"
+			],
+			[
+				"get",
+				"PUBLIC getPurchasedItems() 	LIST"
+			],
+			[
+				"add",
+				"PUBLIC addItemToCart(Id rateCardId) 	Id"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"on",
+				"onlyFE"
+			],
+			[
+				"item",
+				"itemNames"
+			],
+			[
+				"tes",
+				"testMethod"
+			],
+			[
+				"ass",
+				"assertEquals()"
+			],
+			[
+				"curre",
+				"CurrencyIsoCode"
+			],
+			[
+				"g",
+				"PUBLIC getProvinces(String country) 	LIST"
+			],
+			[
+				"actio",
+				"apex:actionSupport"
+			],
+			[
+				"Ter",
+				"Territory"
+			],
+			[
+				"No",
+				"Nova"
+			],
+			[
+				"New",
+				"Newfoundland"
+			],
+			[
+				"Order_",
+				"Order_Status__c"
+			],
+			[
+				"new",
+				"newOrder"
+			],
+			[
+				"Purch",
+				"Purchased_Item__c	[Sobject Name]"
+			],
+			[
+				"app",
+				"appliedTax"
+			],
+			[
+				"Rate",
+				"Rate_Card_Item__r"
+			],
+			[
+				"output",
+				"apex:outputPanel"
+			],
+			[
+				"Ta",
+				"Tax_Type__c"
+			],
+			[
+				"sele",
+				"apex:selectOptions"
+			],
+			[
+				"load",
+				"loadDefinitions"
+			],
+			[
+				"tot",
+				"totalRisk"
+			],
+			[
+				"inC",
+				"inClausify"
+			],
+			[
+				"res",
+				"residualRisk"
+			],
+			[
+				"is",
+				"PUBLIC isBlank(String str) 	Boolean"
+			],
+			[
+				"Assess",
+				"Assessment_Subject__r"
+			],
+			[
+				"repo",
+				"reportType"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"apc",
+				"apex:column"
+			],
+			[
+				"convertA",
+				"PUBLIC convertAssessments() 	PageReference"
+			],
+			[
+				"getU",
+				"PUBLIC getUserRoles() 	LIST"
+			],
+			[
+				"Custome",
+				"CustomerView	[Visualforce Page]"
+			],
+			[
+				"TR2_Custome",
+				"TR2_CustomerView	[Custom Apex Class]"
+			],
+			[
+				"TR2_C",
+				"TR2_CustomerAdmin	[Custom Apex Class]"
+			],
+			[
+				"report",
+				"reportFocus"
+			],
+			[
+				"de",
+				"PUBLIC deserialize(String jsonString, system.Type apexType) 	Object"
+			],
+			[
+				"IS",
+				"IsPortalAdmin__c"
+			],
+			[
+				"Ass",
+				"Assessment__r"
+			],
+			[
+				"ou",
+				"apex:outputPanel"
+			],
+			[
+				"start",
+				"startTime"
+			],
+			[
+				"cong",
+				"congaPDFOption"
+			],
+			[
+				"conga",
+				"congaReportType"
+			],
+			[
+				"congaRe",
+				"congaReportGroup"
+			],
+			[
+				"rep",
+				"reportType"
+			],
+			[
+				"download",
+				"downloadReport"
+			],
+			[
+				"TR2",
+				"TR2_Reports"
+			],
+			[
+				"TR2_KRI",
+				"TR2_KRI_Entry__c"
+			],
+			[
+				"Account",
+				"Account__c"
+			],
+			[
+				"Asses",
+				"Assessment__r"
+			],
+			[
+				"create",
+				"createUserSubjectAssignment"
+			],
+			[
+				"isA",
+				"IsActive__c"
+			],
+			[
+				"TR2_Ass",
+				"TR2_Assessment_Subject__c"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"D",
+				"Definition__r"
+			],
+			[
+				"Re",
+				"RecordType"
+			],
+			[
+				"subject",
+				"subjectsPrev"
+			],
+			[
+				"sel",
+				"apex:selectOptions"
+			],
+			[
+				"see",
+				"apex:selectList"
+			],
+			[
+				"clon",
+				"cloneSubjectAssignment"
+			],
+			[
+				"Com",
+				"CommUserSubjects__c"
+			],
+			[
+				"Co",
+				"CommUserSubjects__c"
+			],
+			[
+				"ge",
+				"PUBLIC getMessage() 	String"
+			],
+			[
+				"Us",
+				"User_ID__c"
+			],
+			[
+				"Sub",
+				"Subject_ID__c"
+			],
+			[
+				"style",
+				"styleClass	(String)"
+			],
+			[
+				"hasSub",
+				"hasSubjectRiskVals"
+			],
+			[
+				"hasS",
+				"hasSubjectDocuments"
+			],
+			[
+				"hasSubje",
+				"hasSubjectTimeline"
+			],
+			[
+				"has",
+				"hasSubjectDetailFilter"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"outpu",
+				"apex:outputPanel"
+			],
+			[
+				"apex",
+				"apex:column"
+			],
+			[
+				"styl",
+				"styleClass	(String)"
+			],
+			[
+				"data",
+				"apex:dataTable"
+			],
+			[
+				"Asse",
+				"Assessments__r"
+			],
+			[
+				"la",
+				"layout	(String)"
+			],
+			[
+				"filter",
+				"filterSubjects"
+			],
+			[
+				"User",
+				"UserSubject"
+			],
+			[
+				"Subje",
+				"Subject__c"
+			],
+			[
+				"Silo",
+				"Silo__r"
+			],
+			[
+				"p",
+				"public"
+			],
+			[
+				"marig",
+				"margin-bottom"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"Res",
+				"ResultMessage"
+			],
+			[
+				"outp",
+				"apex:outputText"
+			],
+			[
+				"substring",
+				"PUBLIC substringAfter(String separator) 	String"
+			],
+			[
+				"ap",
+				"applyHtmlTag	(Boolean)"
+			],
+			[
+				"Con",
+				"ConvertedContactId"
+			],
+			[
+				"co",
+				"company"
+			],
+			[
+				"getC",
+				"getConditionalWhere"
+			],
+			[
+				"Sales",
+				"SalesMonitorExport	[Visualforce Page]"
+			],
+			[
+				"fi",
+				"fileName"
+			],
+			[
+				"ta",
+				"target	(String)"
+			],
+			[
+				"sty",
+				"styleClass	(String)"
+			],
+			[
+				"com",
+				"apex:commandButton"
+			],
+			[
+				"oup",
+				"apex:outputLabel"
+			],
+			[
+				"opps",
+				"oppqs"
+			],
+			[
+				"created",
+				"createdDateF"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/pages/TasksAppVRO.page",
+			"settings":
+			{
+				"buffer_size": 5602,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/pages/SimpleVRO.page",
+			"settings":
+			{
+				"buffer_size": 2044,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 368.0,
+		"selected_items":
+		[
+			[
+				"control",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"MavensMate: Execute Apex..."
+			]
+		],
+		"width": 543.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/david/Projects/RedPoint Playground",
+		"/Users/david/Projects/RedPoint Playground/src/pages"
+	],
+	"file_history":
+	[
+		"/Users/david/Projects/RedPoint Playground/src/pages/TasksAppVRA.page",
+		"/Users/david/Projects/RedPoint Playground/tasks.css",
+		"/Users/david/Downloads/google-analytics-for-wordpress/index.php",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/NewQuickLead.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/MyProfile.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/ContactPageBuilder.page",
+		"/Users/david/Projects/sendsites-pagebuilder/original/AngularJS/sendsites.js",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/QuickLeads.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/TsocException.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/CanvasTest.page",
+		"/Users/david/Projects/sendsites-pagebuilder/views/pages/index.ejs",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/PageBuilderTemplate.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/Recipient.cls",
+		"/Applications/MAMP/htdocs/wp/wp-content/plugins/salesforce-unit-availability/salesforce-unit-availability.php",
+		"/Applications/MAMP/htdocs/wp/wp-content/plugins/salesforce-unit-availability/lib/force-connector.php",
+		"/Applications/MAMP/htdocs/wp/wp-content/plugins/akismet/akismet.php",
+		"/Users/david/Projects/sendsites-pagebuilder/signedRequest.json",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/TSapi.cls",
+		"/Users/david/Projects/sendsites-pagebuilder/server.js",
+		"/Users/david/Projects/allstars/server.js",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/PageBuilder.page",
+		"/Users/david/Downloads/AngularJS/sendsites.js",
+		"/Users/david/Projects/ShareSites (Publishing)/src/components/loadingBox.component",
+		"/Users/david/Downloads/NewProfile.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/Test_PageBuilder.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/PageBuilder.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/NewProfile.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/NewPB.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/pageBuilderNew2.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/PageBuilder3.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/sendNEW.page",
+		"/Users/david/Projects/sendsites-pagebuilder/package.json",
+		"/Users/david/Projects/sendsites-pagebuilder/Procfile",
+		"/Users/david/Projects/oauth2-example/app.js",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/PostInstall.cls",
+		"/Users/david/Desktop/SendSites/AngularJS/sendsites.js",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/ddd.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/PageAlerts.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/components/PageAlert.component",
+		"/Users/david/Projects/ShareSites (Publishing)/none",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/PageBuilderNew.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/Summary.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/Batch_PageStatistics.cls",
+		"/Users/david/Desktop/SendSites/AngularJS/sendsites.min.js",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/Statistics.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/Summary.cls",
+		"/Users/david/Downloads/bootstrap-bs3.css",
+		"/Users/david/Projects/bootswatch/lumen/bootstrap.css",
+		"/Users/david/Projects/bootswatch/lumen/bootswatch.less",
+		"/Users/david/Projects/bootswatch/lumen/bootstrap.less",
+		"/Users/david/Downloads/bootstrap-3.2.0/less/bootstrap.less",
+		"/Users/david/Projects/bootswatch/lumen/bootstrap.min.css",
+		"/Users/david/Downloads/bootswatch.less",
+		"/Users/david/Downloads/variables.less",
+		"/Users/david/Downloads/lumen-bootstrap.css",
+		"/Users/david/Projects/ShareSites (Publishing)/assetGetters.js",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/ResultMessage.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/Playground.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/Preview.page",
+		"/Users/david/Downloads/ts-purl.js",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/MyProfile.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/SummaryExport.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/SendSiteDetail.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/LeadPageBuilder.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/ListView.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/Preview.cls",
+		"/Users/david/Desktop/test.html",
+		"/Users/david/Desktop/SendSites/Loading/ui/css/custom-theme/ss-modal.min.css",
+		"/Users/david/Desktop/SendSites/Loading/ss-modal.css",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/mm.log",
+		"/Users/david/Projects/ShareSites (Publishing)/src/components/PageBuilder.component",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/PageAlert.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/PageAlert2.cls",
+		"/Users/david/Projects/Bootstrap-VF-Alerts/components/PageAlert.component",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/Test_PostInstall.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/Template.cls",
+		"/Users/david/Projects/Previous/Third Social/src/pages/PageEditor.page",
+		"/Users/david/Projects/Previous/Third Social/Third Social/src/classes/PageEditorCtrl.cls",
+		"/Users/david/Projects/Previous/Third Social/src/classes/PurlHub.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/pages/ShareSiteDetail.page",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/TSPage.cls",
+		"/Users/david/Projects/ShareSites (Publishing)/src/classes/Test_Template.cls",
+		"/Users/david/Projects/Previous/Third Social/Third Social/src/classes/PurlHub.cls",
+		"/Users/david/Projects/Previous/Third Social/Third Social/src/pages/FileUpload.page",
+		"/Users/david/Projects/Previous/Third Social/Third Social/src/pages/PageEditor.page",
+		"/Users/david/Desktop/Third Social/src/classes/PurlHub.cls",
+		"/Users/david/Desktop/Third Social/src/pages/PageEditor.page",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epFieldSet.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Test_TrustCommerce.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Test_epShowSetup.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Test_epProgress.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Test_epOrderReminder.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Test_epOrderEdit.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Test_epCheckout.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Test_epCartStart.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Test_epBatchInvite.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/pages/epShowSection.page",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epProgress.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epMasterController.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/pages/epCheckout.page",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epCartStart.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/pages/epCartStart.page",
+		"/Users/david/Projects/UBM Dev Sandbox/src/pages/epThankYou.page",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epBeacon.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/pages/epThankYouPDF.page",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epBatchInvite.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epOrderReminder.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epCheckout.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epOrderModel.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Batch_AccountProductKeywords.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epShowSetup.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epShowModel.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/epTestFactory.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/triggers/ProductCategory.trigger",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/Test_ProductCategory.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/src/classes/TrustCommerce.cls",
+		"/Users/david/Projects/UBM Dev Sandbox/UBM Dev Sandbox.sublime-settings",
+		"/Users/david/Projects/UBM Dev Sandbox/src/pages/ChangePassword.page",
+		"/Users/david/Projects/UBM Dev Sandbox/src/pages/epShowSetup.page",
+		"/Users/david/Projects/Tracerisk Pro/src/pages/KRIAdmin.page",
+		"/Users/david/Projects/Tracerisk Pro/src/classes/TR2_KRIAdmin.cls",
+		"/Users/david/Projects/Tracerisk Pro/src/pages/CommunitiesLogin.page",
+		"/Users/david/Projects/Tracerisk Pro/src/classes/TR2_Objects.cls",
+		"/Users/david/Projects/Tracerisk Pro/src/classes/TR2_ManageSubjects.cls",
+		"/Users/david/Projects/Tracerisk Pro/src/pages/Home.page",
+		"/Users/david/Projects/Tracerisk Pro/src/pages/ManageSubjects.page",
+		"/Users/david/Projects/Tracerisk Pro/src/pages/CommunitiesTemplate.page",
+		"/Users/david/Projects/Tracerisk Pro/src/pages/ReportAdHoc.page"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ng-href=\"javascript: return false;\"",
+			"tempForm",
+			"$invalid",
+			"console",
+			" .",
+			"')}\"/>\n",
+			"$",
+			"\"",
+			"{\n",
+			"numlist",
+			" console.log",
+			")\"",
+			"assetService.resetAssets",
+			"$scope.assets",
+			"getSectionsForPlaceholder",
+			"rerender",
+			"upload",
+			"fileupload",
+			"Page__c",
+			"tsoc__pagebuilder",
+			"upload",
+			"PostPurlHTTP",
+			"beacon",
+			"pis",
+			"s3",
+			"mtp.",
+			"mtp2.",
+			"se.",
+			"cm.",
+			"dl3",
+			"dl2",
+			"\"",
+			"$",
+			"r.Shippable__c,",
+			"#subjects",
+			"setBookmark",
+			"();\n",
+			"end",
+			"start",
+			"\\",
+			"agileed__Active__c",
+			"\\/",
+			"\\/\n",
+			" \n",
+			"\\/"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"href=\"\"",
+			"master",
+			"j",
+			"'",
+			"//console.log",
+			"utils.resetAssets",
+			"$rootScope.assets",
+			"p",
+			"clis",
+			"rc.",
+			"rc",
+			"'",
+			"j",
+			"r.Shippable__c, r.isTangible__c,",
+			"#Subject",
+			"close",
+			"open",
+			"",
+			"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/pages/TasksAppVRO.page",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5602,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								412,
+								412
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/pages/SimpleVRO.page",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2044,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2044,
+								2044
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 129.0
+	},
+	"output.exec":
+	{
+		"height": 116.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "RedPoint Playground.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 328.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
